@@ -13,6 +13,9 @@
 		A58D9C8227C0214800E74401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9C7027C0214700E74401 /* ContentView.swift */; };
 		A58D9C8327C0214800E74401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58D9C7127C0214800E74401 /* Assets.xcassets */; };
 		A58D9C8427C0214800E74401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58D9C7127C0214800E74401 /* Assets.xcassets */; };
+		A58D9C9327C0225300E74401 /* BasicLists_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9C9227C0225300E74401 /* BasicLists_01.swift */; };
+		A58D9C9627C024D100E74401 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9C9527C024D100E74401 /* BookModel.swift */; };
+		A58D9C9827C0255800E74401 /* BooksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9C9727C0255800E74401 /* BooksData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A58D9C7627C0214800E74401 /* MastermindsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MastermindsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58D9C7C27C0214800E74401 /* MastermindsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MastermindsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58D9C7E27C0214800E74401 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A58D9C9227C0225300E74401 /* BasicLists_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLists_01.swift; sourceTree = "<group>"; };
+		A58D9C9527C024D100E74401 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		A58D9C9727C0255800E74401 /* BooksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		A58D9C6E27C0214700E74401 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A58D9C9427C0247300E74401 /* Books */,
+				A58D9C8D27C021B900E74401 /* 10-Lists */,
 				A58D9C6F27C0214700E74401 /* MastermindsBookApp.swift */,
 				A58D9C7027C0214700E74401 /* ContentView.swift */,
 				A58D9C7127C0214800E74401 /* Assets.xcassets */,
@@ -76,6 +84,23 @@
 				A58D9C7E27C0214800E74401 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		A58D9C8D27C021B900E74401 /* 10-Lists */ = {
+			isa = PBXGroup;
+			children = (
+				A58D9C9227C0225300E74401 /* BasicLists_01.swift */,
+			);
+			path = "10-Lists";
+			sourceTree = "<group>";
+		};
+		A58D9C9427C0247300E74401 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				A58D9C9527C024D100E74401 /* BookModel.swift */,
+				A58D9C9727C0255800E74401 /* BooksData.swift */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58D9C9827C0255800E74401 /* BooksData.swift in Sources */,
 				A58D9C8127C0214800E74401 /* ContentView.swift in Sources */,
 				A58D9C7F27C0214800E74401 /* MastermindsBookApp.swift in Sources */,
+				A58D9C9627C024D100E74401 /* BookModel.swift in Sources */,
+				A58D9C9327C0225300E74401 /* BasicLists_01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
