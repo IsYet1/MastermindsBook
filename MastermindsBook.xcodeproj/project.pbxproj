@@ -140,8 +140,8 @@
 		A58D9D9727C055F700E74401 /* expand@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A58D9D1B27C055F700E74401 /* expand@3x.png */; };
 		A58D9D9827C055F700E74401 /* nothumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A58D9D1C27C055F700E74401 /* nothumbnail@2x.png */; };
 		A58D9D9927C055F700E74401 /* nopicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A58D9D1D27C055F700E74401 /* nopicture@2x.png */; };
-		A58D9D9C27C0572C00E74401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9D9B27C0572C00E74401 /* AppDelegate.swift */; };
 		A58D9D9E27C0578600E74401 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9D9D27C0578600E74401 /* AppData.swift */; };
+		A58D9DA227C05D1100E74401 /* BooksForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D9DA127C05D1100E74401 /* BooksForEachView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -278,8 +278,8 @@
 		A58D9D1B27C055F700E74401 /* expand@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expand@3x.png"; sourceTree = "<group>"; };
 		A58D9D1C27C055F700E74401 /* nothumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nothumbnail@2x.png"; sourceTree = "<group>"; };
 		A58D9D1D27C055F700E74401 /* nopicture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nopicture@2x.png"; sourceTree = "<group>"; };
-		A58D9D9B27C0572C00E74401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A58D9D9D27C0578600E74401 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		A58D9DA127C05D1100E74401 /* BooksForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksForEachView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +353,7 @@
 			children = (
 				A58D9C9527C024D100E74401 /* BookModel.swift */,
 				A58D9C9727C0255800E74401 /* BooksData.swift */,
+				A58D9DA127C05D1100E74401 /* BooksForEachView.swift */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -507,7 +508,6 @@
 		A58D9D9A27C0571400E74401 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				A58D9D9B27C0572C00E74401 /* AppDelegate.swift */,
 				A58D9D9D27C0578600E74401 /* AppData.swift */,
 			);
 			path = Delegates;
@@ -735,12 +735,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58D9D9C27C0572C00E74401 /* AppDelegate.swift in Sources */,
 				A58D9C9827C0255800E74401 /* BooksData.swift in Sources */,
 				A58D9C8127C0214800E74401 /* ContentView.swift in Sources */,
 				A58D9C7F27C0214800E74401 /* MastermindsBookApp.swift in Sources */,
 				A58D9C9627C024D100E74401 /* BookModel.swift in Sources */,
 				A58D9C9327C0225300E74401 /* BasicLists_01.swift in Sources */,
+				A58D9DA227C05D1100E74401 /* BooksForEachView.swift in Sources */,
 				A58D9D9E27C0578600E74401 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
