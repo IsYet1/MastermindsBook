@@ -21,6 +21,15 @@ var userData: [BookViewModel] = [
     BookViewModel(book: Book(title: "The Road Ahead", author: "Bill Gates", cover: "book3", year: 1995))
 ]
 
+var orderList: [(key: String, value: [BookViewModel] ) ] {
+    let listGroup: [String: [BookViewModel]] = Dictionary(grouping: userData, by: { value in
+        let index = value.title.startIndex
+        let initial = value.title[index]
+        return String(initial)
+    })
+    return listGroup.sorted(by: {$0.key < $1.key})
+}
+
 //class AppData: ObservableObject {
 //    @Published var userData: [BookViewModel]
 //    init() {
