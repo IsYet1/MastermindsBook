@@ -12,6 +12,7 @@ struct Book {
     var author: String
     var cover: String?
     var year: Int
+    var category: String
 }
 struct BookViewModel: Identifiable {
     var id = UUID()
@@ -20,4 +21,5 @@ struct BookViewModel: Identifiable {
     var author: String { return book.author.capitalized }
     var cover: String { return book.cover ?? "" }
     var year: String { return String(book.year) }
+    var category: String { return book.category }
 }

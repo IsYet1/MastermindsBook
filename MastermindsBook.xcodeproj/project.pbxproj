@@ -355,8 +355,8 @@
 			children = (
 				A58D9C9527C024D100E74401 /* BookModel.swift */,
 				A58D9C9727C0255800E74401 /* BooksData.swift */,
-				A58D9DA127C05D1100E74401 /* BooksForEachView.swift */,
 				A58D9DA327C0632100E74401 /* GroupedBookList.swift */,
+				A58D9DA127C05D1100E74401 /* BooksForEachView.swift */,
 			);
 			path = Books;
 			sourceTree = "<group>";

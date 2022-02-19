@@ -12,7 +12,7 @@ let appData1 = orderList
 struct GroupedBookList: View {
     var body: some View {
         List {
-            ForEach(appData1, id: \.key) {sections in
+            ForEach(orderList, id: \.key) {sections in
                 Section(header: Text(sections.key)) {
                     ForEach(sections.value) {book in
                         Text(book.title)
